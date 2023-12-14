@@ -1,0 +1,33 @@
+<div class = "container">
+  <div class="card">
+    <h3 class="adviceId">   Advice #{{ advice?.id }}
+    </h3>
+
+    <p class="adviceText"> " {{ advice?.advice }}"</p>
+ 
+    <img class="pattern-divider-desktop" src="../assets/images/pattern-divider-desktop.svg" alt="">
+  
+    <button class="circle" (click)="getRandomAdvice()">
+      <img class="icon-dice" src="../assets/images/icon-dice.svg" alt="">
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
